@@ -1,0 +1,14 @@
+classroom
+//
+attributes:
+studentSize (integer)
+subject (string)
+isMultiDisciplinary (boolean)
+hasNaturalLight (boolean)
+classInventory (array)
+//
+methods:
+addStudentToClassroom (increases studentSize by 1)
+changeClassType (updates subject)
+boardsUpAllWindows (updates hasNaturalLight to false)
+takeAwayWhiteBoard (reduces classInventory)

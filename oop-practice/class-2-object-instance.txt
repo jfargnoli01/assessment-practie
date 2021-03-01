@@ -1,0 +1,15 @@
+Instance: Jerry
+//
+attributes:
+name = "Jerry Smith"
+age = 5
+studentsInMathA = ["Jerry", "Gene", "Manuel", "Maria"]
+hasBrownHair = true
+goToLunchAt12 = true
+//
+methods:
+placeKidInMathB: studentsInMathA = ["Gene", "Manuel", "Maria"]
+dyeHairBlond: hasBrownHair = false
+updateLunchTo11: goToLunchAt12 = false
+giveNickNameToStudent: name = "Jer Smith"
+keepStudentInClassAllYear: age = 6

@@ -1,0 +1,14 @@
+instance: MathClassroom
+//
+attributes:
+studentSize = 12
+subject = "Math"
+isMultiDisciplinary = false
+hasNaturalLight = true
+classInventory = ["White Board", "Chalkboard", "Markers"]
+//
+methods:
+addStudentToClassroom: studentSize = 13
+changeClassType: subject = "Science"
+boardsUpAllWindows: hasNaturalLight = false
+takeAwayWhiteBoard: classInventory = ["Chalkboard", "Markers"]

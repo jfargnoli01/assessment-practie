@@ -1,0 +1,15 @@
+Class: Kids
+//
+attributes:
+name (string)
+age (integer)
+studentsInMathA (array)
+hasBrownHair (boolean)
+goToLunchAt12 (boolean)
+//
+methods:
+placeKidInMathB (changes the studentsInMathA array)
+dyeHairBlond (changes hasBrownHair to false)
+updateLunchTo11 (makes goToLunchAt12 false)
+giveNickNameToStudent (updates name)
+keepStudentInClassAllYear (increases age by 1)
